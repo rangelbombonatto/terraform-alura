@@ -32,11 +32,10 @@ This repository contains the configuration files and resources created during th
 
 ### 1. Provision the infrastructure using Terraform
 
-cd terraform
-terraform init
-terraform apply
-
-ansible-playbook ansible/playbook.yml -u ubuntu --private-key iac-alura.pem -i ansible/hosts.yml
+- cd terraform
+- terraform init
+- terraform apply
+- ansible-playbook ansible/playbook.yml -u ubuntu --private-key iac-alura.pem -i ansible/hosts.yml
 
 
 

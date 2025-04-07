@@ -10,22 +10,13 @@ This repository contains the configuration files and resources created during th
 - ⚙️ Configuring EC2 instances using **Ansible**
 - 🧩 Using various **Ansible modules** in real-world scenarios
 
+
 ## 🧰 Technologies & Tools
 
 - [Terraform](https://www.terraform.io/)
 - [Ansible](https://www.ansible.com/)
 - [AWS](https://aws.amazon.com/)
 - [Ubuntu / WSL2](https://learn.microsoft.com/en-us/windows/wsl/)
-
-## 📁 Project Structure
-
-.
-├── ansible/
-│   ├── hosts.yml
-│   └── playbook.yml
-├── terraform/
-│   ├── main.tf
-└── README.md
 
 
 ## 🚀 How to run

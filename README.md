@@ -19,7 +19,6 @@ This repository contains the configuration files and resources created during th
 
 ## 📁 Project Structure
 
-```bash
 .
 ├── ansible/
 │   ├── hosts.yml
@@ -33,7 +32,6 @@ This repository contains the configuration files and resources created during th
 
 ### 1. Provision the infrastructure using Terraform
 
-```bash
 cd terraform
 terraform init
 terraform apply

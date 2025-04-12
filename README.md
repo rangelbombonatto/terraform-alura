@@ -10,6 +10,7 @@ This repository contains the configuration files and resources created during th
 - ⚙️ Configuring EC2 instances using **Ansible**
 - 🧩 Using various **Ansible modules** in real-world scenarios
 
+
 ## 🧰 Technologies & Tools
 
 - [Terraform](https://www.terraform.io/)
@@ -17,28 +18,15 @@ This repository contains the configuration files and resources created during th
 - [AWS](https://aws.amazon.com/)
 - [Ubuntu / WSL2](https://learn.microsoft.com/en-us/windows/wsl/)
 
-## 📁 Project Structure
-
-```bash
-.
-├── ansible/
-│   ├── hosts.yml
-│   └── playbook.yml
-├── terraform/
-│   ├── main.tf
-└── README.md
-
 
 ## 🚀 How to run
 
 ### 1. Provision the infrastructure using Terraform
 
-```bash
-cd terraform
-terraform init
-terraform apply
-
-ansible-playbook ansible/playbook.yml -u ubuntu --private-key iac-alura.pem -i ansible/hosts.yml
+- cd terraform
+- terraform init
+- terraform apply
+- ansible-playbook ansible/playbook.yml -u ubuntu --private-key iac-alura.pem -i ansible/hosts.yml
 
 
 
